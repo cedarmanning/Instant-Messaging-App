@@ -1,26 +1,3 @@
-/**
- * MessengerApp System Testing Script
- * 
- * This script tests all major functionality of the messenger application.
- * It should be run in the browser console while the app is loaded.
- * 
- * Prerequisites:
- * - App running on localhost:5173
- * - Backend server running and accessible
- * - Two browser windows (regular + incognito) for real-time messaging tests
- * 
- * Usage:
- * 1. Open browser developer console (F12)
- * 2. Copy and paste this entire script
- * 3. Run: TestRunner.runAll()
- * 
- * Or run individual test suites:
- * - TestRunner.runAPITests()
- * - TestRunner.runAuthTests()
- * - TestRunner.runProfileTests()
- * - TestRunner.runContactTests()
- * - TestRunner.runMessageTests()
- */
 
 const SERVER_URL = "https://pretorial-portliest-vertie.ngrok-free.dev";
 
